@@ -18,6 +18,7 @@
 		030B10BD278369FA006A471F /* FirebaseNoteRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 030B10BC278369FA006A471F /* FirebaseNoteRepository.swift */; };
 		030B10BF27836F7E006A471F /* NoteRepositoryProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 030B10BE27836F7E006A471F /* NoteRepositoryProtocol.swift */; };
 		030B10C1278371AA006A471F /* MockNoteRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 030B10C0278371AA006A471F /* MockNoteRepository.swift */; };
+		030B10C327837C54006A471F /* ColorUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 030B10C227837C54006A471F /* ColorUtils.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,7 @@
 		030B10BC278369FA006A471F /* FirebaseNoteRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseNoteRepository.swift; sourceTree = "<group>"; };
 		030B10BE27836F7E006A471F /* NoteRepositoryProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteRepositoryProtocol.swift; sourceTree = "<group>"; };
 		030B10C0278371AA006A471F /* MockNoteRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockNoteRepository.swift; sourceTree = "<group>"; };
+		030B10C227837C54006A471F /* ColorUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorUtils.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +114,7 @@
 		030B10B82783663D006A471F /* Utils */ = {
 			isa = PBXGroup;
 			children = (
+				030B10C227837C54006A471F /* ColorUtils.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -205,6 +208,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				030B10A127836373006A471F /* ContentView.swift in Sources */,
+				030B10C327837C54006A471F /* ColorUtils.swift in Sources */,
 				030B109F27836373006A471F /* NotesAppApp.swift in Sources */,
 				030B10BD278369FA006A471F /* FirebaseNoteRepository.swift in Sources */,
 				030B10C1278371AA006A471F /* MockNoteRepository.swift in Sources */,
