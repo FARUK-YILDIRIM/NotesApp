@@ -15,6 +15,7 @@
 		030B10B2278364D8006A471F /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 030B10B1278364D8006A471F /* FirebaseFirestore */; };
 		030B10B4278364D8006A471F /* FirebaseFirestoreSwift-Beta in Frameworks */ = {isa = PBXBuildFile; productRef = 030B10B3278364D8006A471F /* FirebaseFirestoreSwift-Beta */; };
 		030B10BB27836778006A471F /* Note.swift in Sources */ = {isa = PBXBuildFile; fileRef = 030B10BA27836778006A471F /* Note.swift */; };
+		030B10BD278369FA006A471F /* FirebaseNoteRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 030B10BC278369FA006A471F /* FirebaseNoteRepository.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		030B10A527836374006A471F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		030B10AE278363F6006A471F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		030B10BA27836778006A471F /* Note.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Note.swift; sourceTree = "<group>"; };
+		030B10BC278369FA006A471F /* FirebaseNoteRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseNoteRepository.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,6 +115,7 @@
 		030B10B927836648006A471F /* Repositories */ = {
 			isa = PBXGroup;
 			children = (
+				030B10BC278369FA006A471F /* FirebaseNoteRepository.swift */,
 			);
 			path = Repositories;
 			sourceTree = "<group>";
@@ -197,6 +200,7 @@
 			files = (
 				030B10A127836373006A471F /* ContentView.swift in Sources */,
 				030B109F27836373006A471F /* NotesAppApp.swift in Sources */,
+				030B10BD278369FA006A471F /* FirebaseNoteRepository.swift in Sources */,
 				030B10BB27836778006A471F /* Note.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -11,6 +11,18 @@ struct ContentView: View {
     var body: some View {
         Text("Hello, world!")
             .padding()
+            .onAppear {
+                FirebaseNoteRepository().add(note: Note.sampleNotes()[0]) { result in
+                    switch result {
+                    case .success(let note):
+                        print(note?.name ?? "")
+                        print(note?.items ?? "")
+                    case .failure(let err):
+                        print(err.localizedDescription)
+                    }
+                    
+                }
+            }
     }
 }
 
