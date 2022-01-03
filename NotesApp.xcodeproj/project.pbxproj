@@ -17,6 +17,7 @@
 		030B10BB27836778006A471F /* Note.swift in Sources */ = {isa = PBXBuildFile; fileRef = 030B10BA27836778006A471F /* Note.swift */; };
 		030B10BD278369FA006A471F /* FirebaseNoteRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 030B10BC278369FA006A471F /* FirebaseNoteRepository.swift */; };
 		030B10BF27836F7E006A471F /* NoteRepositoryProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 030B10BE27836F7E006A471F /* NoteRepositoryProtocol.swift */; };
+		030B10C1278371AA006A471F /* MockNoteRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 030B10C0278371AA006A471F /* MockNoteRepository.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,7 @@
 		030B10BA27836778006A471F /* Note.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Note.swift; sourceTree = "<group>"; };
 		030B10BC278369FA006A471F /* FirebaseNoteRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseNoteRepository.swift; sourceTree = "<group>"; };
 		030B10BE27836F7E006A471F /* NoteRepositoryProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteRepositoryProtocol.swift; sourceTree = "<group>"; };
+		030B10C0278371AA006A471F /* MockNoteRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockNoteRepository.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +121,7 @@
 			children = (
 				030B10BC278369FA006A471F /* FirebaseNoteRepository.swift */,
 				030B10BE27836F7E006A471F /* NoteRepositoryProtocol.swift */,
+				030B10C0278371AA006A471F /* MockNoteRepository.swift */,
 			);
 			path = Repositories;
 			sourceTree = "<group>";
@@ -204,6 +207,7 @@
 				030B10A127836373006A471F /* ContentView.swift in Sources */,
 				030B109F27836373006A471F /* NotesAppApp.swift in Sources */,
 				030B10BD278369FA006A471F /* FirebaseNoteRepository.swift in Sources */,
+				030B10C1278371AA006A471F /* MockNoteRepository.swift in Sources */,
 				030B10BB27836778006A471F /* Note.swift in Sources */,
 				030B10BF27836F7E006A471F /* NoteRepositoryProtocol.swift in Sources */,
 			);
