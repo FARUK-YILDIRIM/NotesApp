@@ -28,6 +28,7 @@
 		035BBA8B2784244500A3474F /* AddNoteViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 035BBA8A2784244500A3474F /* AddNoteViewModel.swift */; };
 		035BBA8D278426B300A3474F /* NoteDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 035BBA8C278426B300A3474F /* NoteDetailViewModel.swift */; };
 		035BBA912784288700A3474F /* NoteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 035BBA902784288700A3474F /* NoteView.swift */; };
+		035BBA9327842D2F00A3474F /* AddNewNote.swift in Sources */ = {isa = PBXBuildFile; fileRef = 035BBA9227842D2F00A3474F /* AddNewNote.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -51,6 +52,7 @@
 		035BBA8A2784244500A3474F /* AddNoteViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNoteViewModel.swift; sourceTree = "<group>"; };
 		035BBA8C278426B300A3474F /* NoteDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteDetailViewModel.swift; sourceTree = "<group>"; };
 		035BBA902784288700A3474F /* NoteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteView.swift; sourceTree = "<group>"; };
+		035BBA9227842D2F00A3474F /* AddNewNote.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNewNote.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +121,7 @@
 			children = (
 				030B10A027836373006A471F /* ContentView.swift */,
 				035BBA902784288700A3474F /* NoteView.swift */,
+				035BBA9227842D2F00A3474F /* AddNewNote.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -249,6 +252,7 @@
 				035BBA87278420AB00A3474F /* NoteViewModel.swift in Sources */,
 				030B10C1278371AA006A471F /* MockNoteRepository.swift in Sources */,
 				030B10BB27836778006A471F /* Note.swift in Sources */,
+				035BBA9327842D2F00A3474F /* AddNewNote.swift in Sources */,
 				030B10BF27836F7E006A471F /* NoteRepositoryProtocol.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
