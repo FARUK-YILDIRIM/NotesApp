@@ -22,6 +22,7 @@
 		030B10C527837F82006A471F /* DateUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 030B10C427837F82006A471F /* DateUtils.swift */; };
 		030B10C727838024006A471F /* EmojiTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 030B10C627838024006A471F /* EmojiTextField.swift */; };
 		035BBA8327841E7600A3474F /* NavigationBarUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 035BBA8227841E7600A3474F /* NavigationBarUtil.swift */; };
+		035BBA852784200800A3474F /* AnimationUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 035BBA842784200800A3474F /* AnimationUtil.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +40,7 @@
 		030B10C427837F82006A471F /* DateUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateUtils.swift; sourceTree = "<group>"; };
 		030B10C627838024006A471F /* EmojiTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiTextField.swift; sourceTree = "<group>"; };
 		035BBA8227841E7600A3474F /* NavigationBarUtil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationBarUtil.swift; sourceTree = "<group>"; };
+		035BBA842784200800A3474F /* AnimationUtil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationUtil.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -124,6 +126,7 @@
 				030B10C427837F82006A471F /* DateUtils.swift */,
 				030B10C627838024006A471F /* EmojiTextField.swift */,
 				035BBA8227841E7600A3474F /* NavigationBarUtil.swift */,
+				035BBA842784200800A3474F /* AnimationUtil.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -220,6 +223,7 @@
 				035BBA8327841E7600A3474F /* NavigationBarUtil.swift in Sources */,
 				030B10C527837F82006A471F /* DateUtils.swift in Sources */,
 				030B10C727838024006A471F /* EmojiTextField.swift in Sources */,
+				035BBA852784200800A3474F /* AnimationUtil.swift in Sources */,
 				030B10C327837C54006A471F /* ColorUtils.swift in Sources */,
 				030B109F27836373006A471F /* NotesAppApp.swift in Sources */,
 				030B10BD278369FA006A471F /* FirebaseNoteRepository.swift in Sources */,
