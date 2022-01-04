@@ -25,6 +25,7 @@
 		035BBA852784200800A3474F /* AnimationUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 035BBA842784200800A3474F /* AnimationUtil.swift */; };
 		035BBA87278420AB00A3474F /* NoteViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 035BBA86278420AB00A3474F /* NoteViewModel.swift */; };
 		035BBA892784223E00A3474F /* NoteListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 035BBA882784223E00A3474F /* NoteListViewModel.swift */; };
+		035BBA8B2784244500A3474F /* AddNoteViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 035BBA8A2784244500A3474F /* AddNoteViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -45,6 +46,7 @@
 		035BBA842784200800A3474F /* AnimationUtil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationUtil.swift; sourceTree = "<group>"; };
 		035BBA86278420AB00A3474F /* NoteViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteViewModel.swift; sourceTree = "<group>"; };
 		035BBA882784223E00A3474F /* NoteListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteListViewModel.swift; sourceTree = "<group>"; };
+		035BBA8A2784244500A3474F /* AddNoteViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNoteViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,6 +123,7 @@
 			children = (
 				035BBA86278420AB00A3474F /* NoteViewModel.swift */,
 				035BBA882784223E00A3474F /* NoteListViewModel.swift */,
+				035BBA8A2784244500A3474F /* AddNoteViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -225,6 +228,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				035BBA8B2784244500A3474F /* AddNoteViewModel.swift in Sources */,
 				030B10A127836373006A471F /* ContentView.swift in Sources */,
 				035BBA8327841E7600A3474F /* NavigationBarUtil.swift in Sources */,
 				030B10C527837F82006A471F /* DateUtils.swift in Sources */,
