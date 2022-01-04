@@ -24,6 +24,7 @@
 		035BBA8327841E7600A3474F /* NavigationBarUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 035BBA8227841E7600A3474F /* NavigationBarUtil.swift */; };
 		035BBA852784200800A3474F /* AnimationUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 035BBA842784200800A3474F /* AnimationUtil.swift */; };
 		035BBA87278420AB00A3474F /* NoteViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 035BBA86278420AB00A3474F /* NoteViewModel.swift */; };
+		035BBA892784223E00A3474F /* NoteListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 035BBA882784223E00A3474F /* NoteListViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -43,6 +44,7 @@
 		035BBA8227841E7600A3474F /* NavigationBarUtil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationBarUtil.swift; sourceTree = "<group>"; };
 		035BBA842784200800A3474F /* AnimationUtil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationUtil.swift; sourceTree = "<group>"; };
 		035BBA86278420AB00A3474F /* NoteViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteViewModel.swift; sourceTree = "<group>"; };
+		035BBA882784223E00A3474F /* NoteListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteListViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +120,7 @@
 			isa = PBXGroup;
 			children = (
 				035BBA86278420AB00A3474F /* NoteViewModel.swift */,
+				035BBA882784223E00A3474F /* NoteListViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -228,6 +231,7 @@
 				030B10C727838024006A471F /* EmojiTextField.swift in Sources */,
 				035BBA852784200800A3474F /* AnimationUtil.swift in Sources */,
 				030B10C327837C54006A471F /* ColorUtils.swift in Sources */,
+				035BBA892784223E00A3474F /* NoteListViewModel.swift in Sources */,
 				030B109F27836373006A471F /* NotesAppApp.swift in Sources */,
 				030B10BD278369FA006A471F /* FirebaseNoteRepository.swift in Sources */,
 				035BBA87278420AB00A3474F /* NoteViewModel.swift in Sources */,
