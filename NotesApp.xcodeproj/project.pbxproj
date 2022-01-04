@@ -27,6 +27,7 @@
 		035BBA892784223E00A3474F /* NoteListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 035BBA882784223E00A3474F /* NoteListViewModel.swift */; };
 		035BBA8B2784244500A3474F /* AddNoteViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 035BBA8A2784244500A3474F /* AddNoteViewModel.swift */; };
 		035BBA8D278426B300A3474F /* NoteDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 035BBA8C278426B300A3474F /* NoteDetailViewModel.swift */; };
+		035BBA912784288700A3474F /* NoteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 035BBA902784288700A3474F /* NoteView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -49,6 +50,7 @@
 		035BBA882784223E00A3474F /* NoteListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteListViewModel.swift; sourceTree = "<group>"; };
 		035BBA8A2784244500A3474F /* AddNoteViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNoteViewModel.swift; sourceTree = "<group>"; };
 		035BBA8C278426B300A3474F /* NoteDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteDetailViewModel.swift; sourceTree = "<group>"; };
+		035BBA902784288700A3474F /* NoteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,6 +118,7 @@
 			isa = PBXGroup;
 			children = (
 				030B10A027836373006A471F /* ContentView.swift */,
+				035BBA902784288700A3474F /* NoteView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -241,6 +244,7 @@
 				030B10C327837C54006A471F /* ColorUtils.swift in Sources */,
 				035BBA892784223E00A3474F /* NoteListViewModel.swift in Sources */,
 				030B109F27836373006A471F /* NotesAppApp.swift in Sources */,
+				035BBA912784288700A3474F /* NoteView.swift in Sources */,
 				030B10BD278369FA006A471F /* FirebaseNoteRepository.swift in Sources */,
 				035BBA87278420AB00A3474F /* NoteViewModel.swift in Sources */,
 				030B10C1278371AA006A471F /* MockNoteRepository.swift in Sources */,
