@@ -32,7 +32,8 @@ struct AddNewNote: View {
                         EmojiTextField(text: $addNoteVM.icon, placeholder: "Enter emoji icon")
                     }
                     
-                }.frame(width: 200, height: 200)
+                }//.frame(width: 200, height: 200)
+                .frame(maxWidth: .infinity, maxHeight: 200)
                 
                 List {
                     HStack() {

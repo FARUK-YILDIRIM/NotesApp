@@ -43,7 +43,6 @@ struct ContentView: View {
             ZStack(alignment: .bottomTrailing){
                 ScrollView(.vertical, showsIndicators: false){
                     LazyVGrid(columns: noteItems, spacing: 10){
-                        
                         ForEach(noteListViewModel.notes, id: \.id) { note in
                         NavigationLink(destination:
                           NoteDetailView(noteDetailViewModel: NoteDetailViewModel(repo: repo, note: note))) {
@@ -52,9 +51,12 @@ struct ContentView: View {
                                     .animation(Animation.easeInOut(duration: 0.12).repeat(while: isEditing), value: isEditing)
                                     .disabled(isEditing)
                                     .overlay(deleteButton(note: note))
+                                  
                             }
                         }
-                    }.padding(.horizontal)
+                    }
+                    .padding(.horizontal)
+                    .padding(.top, 10)
                 }
                 .onAppear {
                     noteListViewModel.getAllNotes()

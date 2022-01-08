@@ -42,7 +42,7 @@ struct EmojiTextField: UIViewRepresentable{
         let txtField = UIEmojiTextField()
         txtField.placeholder = placeholder
         txtField.text = text
-        txtField.delegate = context.coordinator as! UITextFieldDelegate
+        txtField.delegate = context.coordinator as? UITextFieldDelegate
         return txtField
     }
     
@@ -61,7 +61,7 @@ struct EmojiTextField: UIViewRepresentable{
             self.parent = parent
         }
         
-        func textFieldDidChangeSelection(_ textField: UITextField) {
+        private func textFieldDidChangeSelection(_ textField: UITextField) {
             DispatchQueue.main.async { [weak self] in
                 self?.parent.text = textField.text ?? ""
             }
